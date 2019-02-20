@@ -1,0 +1,1 @@
+java -jar @@JAR_PATH@@/platformsvc-toolmanager-@@VERSION_NUMBER@@.jar 34 http://rdp-rest:8085/@@TENANT_ID@@/api/entityappservice/get @@QUERY_PATH@@ 1440 @@MAIL_CONFIG@@ @@OUTPUT@@

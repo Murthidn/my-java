@@ -1,0 +1,13 @@
+{
+  "isMailServiceEnabled" : true,
+  "emailId": "alerts@riversand.com",
+  "emailName": "RDP System Reporter",
+  "emailPassword": "RS@lerts@12",
+  "mailSmtpAuth": "true",
+  "mailSmtpPort": "587",
+  "mailSmtpHost": "smtp-mail.outlook.com",
+  "mailSmtpStartTlsEnable": "true",
+  "subject":  "ALERT! Processing is stopped in @@ENV_NAME@@",
+  "defaultMsg": "Default message text",
+  "recipients": ["@@RCPT@@"]
+}

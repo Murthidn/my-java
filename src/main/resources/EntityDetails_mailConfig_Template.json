@@ -1,0 +1,13 @@
+{
+  "isMailServiceEnabled" : true,
+  "emailId": "reports@riversand.com",
+  "emailName": "RDP System Reporter",
+  "emailPassword": "RDP@1234",
+  "mailSmtpAuth": "true",
+  "mailSmtpPort": "587",
+  "mailSmtpHost": "smtp-mail.outlook.com",
+  "mailSmtpStartTlsEnable": "true",
+  "subject":  "Entity Details Report for @@TENANT_ID@@ in @@ENV_NAME@@",
+  "defaultMsg": "Default message text",
+  "recipients": ["@@RCPT@@"]
+}

@@ -1,0 +1,2 @@
+cd @@BASE_PATH@@/AutoReports/LagReports/output
+java -jar /var/lib/rs/dataplatform/tools/platformsvc-toolmanager-@@VERSION_NUMBER@@.jar 18 @@REPORT_PATH@@
