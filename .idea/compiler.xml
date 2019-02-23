@@ -7,11 +7,12 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="java" />
-        <module name="rs-tools" />
+        <module name="rs-tool" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="my-java" target="7" />
+      <module name="rs-tools" target="7" />
     </bytecodeTargetLevel>
   </component>
 </project>
