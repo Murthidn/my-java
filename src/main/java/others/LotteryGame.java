@@ -1,3 +1,9 @@
+/*
+ *
+ * Copyright (c) 2019 Ranser Group, Inc. All rights reserved.
+ *
+ */
+
 package others;
 
 import java.util.Random;
@@ -9,12 +15,12 @@ public class LotteryGame{
    {
       Scanner scanner=new Scanner(System.in);
 
-      System.out.println("Pay 5 Dollars");
+      System.out.println("You have to pay 5 Dollars:");
       int readInitAmount = scanner.nextInt();
 
       if (readInitAmount != 5)
       {
-         System.out.println("You have to pay 5$");
+         System.out.println("Incorrect! You have to pay 5$");
          System.exit(1);
       }
       else {
