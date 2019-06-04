@@ -1,0 +1,31 @@
+[
+  {
+    "id": "TestEntity",
+    "name": "TestEntity",
+    "type": "sku",
+    "data": {
+      "attributes": {
+        "mdmid": {
+          "values": [
+            {
+              "source": "internal",
+              "locale": "en-US",
+              "id": "66d7362b-0d1b-4d71-995e-4f8806c73b7a",
+              "value": "rsstesting2"
+            }
+          ]
+        },
+        "mdmname": {
+          "values": [
+            {
+              "source": "internal",
+              "locale": "en-US",
+              "id": "d1d36ca3-6223-40b1-97a9-c041a7935a23",
+              "value": "rsstesting2"
+            }
+          ]
+        }
+      }
+    }
+  }
+]

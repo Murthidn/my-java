@@ -1,0 +1,11 @@
+#Reports for IST 7 PM:
+
+0 */1 * * * sh /var/lib/rs/dataplatform/tools/AutoReports/LagReports/systemReport.sh
+30 13 * * * sh /var/lib/rs/dataplatform/tools/AutoReports/AppReports/ApplicationReport.sh
+30 13 * * * sh /var/lib/rs/dataplatform/tools/AutoReports/EntityDetailsReports/EntityDetailsReport.sh
+
+#Reports for CST 7 PM:
+
+0 */1 * * * sh /var/lib/rs/dataplatform/tools/AutoReports/LagReports/systemReport.sh
+0 0 * * * sh /var/lib/rs/dataplatform/tools/AutoReports/AppReports/ApplicationReport.sh
+0 0 * * * sh /var/lib/rs/dataplatform/tools/AutoReports/EntityDetailsReports/EntityDetailsReport.sh
