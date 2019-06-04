@@ -1,0 +1,27 @@
+{
+  "params": {
+    "query": {
+      "filters": {
+        "typesCriterion": [
+          "externalevent"
+        ],
+        "propertiesCriterion": [
+          {
+            "createdDate": {
+              "gte": "",
+              "lte": "",
+              "type": "_datetime"
+            }
+          }
+        ],
+        "attributesCriterion": [
+          {
+            "eventType": {
+              "exact": ""
+            }
+          }
+        ]
+      }
+    }
+  }
+}
